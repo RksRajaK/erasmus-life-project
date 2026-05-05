@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Erasmus Life — Étude de cas UX/UI. Application mobile accompagnant les étudiants Erasmus dans leur séjour à l'étranger." />
+  <title>Erasmus Life — Étude de cas — Inès & Roksana</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar-custom scrolled" id="mainNav" role="navigation" aria-label="Navigation principale">
+    <a href="index.html" class="nav-logo" aria-label="Retour à l'accueil">
+      Inès &amp; Roksana<sup>®</sup>
+    </a>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#projets">Project</a></li>
+      <li><a href="index.html#apropos">About</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="mailto:hello@ines-roksana.design">Contact</a></li>
+    </ul>
+    <button class="nav-menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+
+  <!-- ================================================
+       PROJECT HERO
+       ================================================ -->
+  <header class="project-hero container-fluid-padded" aria-labelledby="project-title">
+    <div class="project-hero-blob" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div style="position:relative; z-index:10; width:100%;">
+      <!-- Breadcrumb -->
+      <nav aria-label="Fil d'Ariane" style="margin-bottom:2rem;">
+        <ol class="d-flex align-items-center gap-2 list-unstyled mb-0" style="font-size:0.78rem; color:var(--text-ghost);">
+          <li><a href="index.html" style="color:var(--text-ghost); text-decoration:none;">Accueil</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href="index.html#projets" style="color:var(--text-ghost); text-decoration:none;">Projets</a></li>
+          <li aria-hidden="true">/</li>
+          <li aria-current="page" style="color:var(--text-primary);">Erasmus Life</li>
+        </ol>
+      </nav>
+
+      <!-- Tags -->
+      <div class="d-flex flex-wrap gap-2 mb-4">
+        <span class="project-tag">UX Research</span>
+        <span class="project-tag">UI Design</span>
+        <span class="project-tag">Mobile App</span>
+        <span class="project-tag">2025 — 2026</span>
+      </div>
+
+      <!-- Title -->
+      <h1 class="display-hero mb-4" id="project-title">
+        Erasmus<br><span class="text-ghost">Life</span>
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--text-muted); max-width:580px; line-height:1.7;">
+        "A mobile platform designed for international exchange students — housing, events, community, and paperwork, all in one intuitive app."</p>
+
+      <!-- Meta row -->
+      <div class="project-meta-row">
+        <div class="project-meta-item">
+          <label>Rôles</label>
+          <span>UX Research, UI Design, Prototypage</span>
+        </div>
+        <div class="project-meta-item">
+          <label>Durée</label>
+          <span>6 mois (2025 — 2026)</span>
+        </div>
+        <div class="project-meta-item">
+          <label>Designers</label>
+          <span>Inès &amp; Roksana</span>
+        </div>
+        <div class="project-meta-item">
+          <label>Contexte</label>
+          <span>Projet ErasmusLife</span>
+        </div>
+        <div class="project-meta-item">
+          <label>Outils</label>
+          <span>Figma, FigJam, Notion, Maze</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ================================================
+       HERO VISUAL — Wireframe image
+       ================================================ -->
+  <section style="background:var(--bg-deep); padding: 0 clamp(1.5rem,5vw,5rem) clamp(3rem,6vh,5rem);" aria-label="Visuel principal du projet">
+    <div class="wireframe-showcase">
+      <img src="DOC/wireframe.png" alt="Aperçu de l'application Erasmus Life — quatre écrans mobiles (accueil, carte interactive, login, branding)" />
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       CONTEXT & CHALLENGE
+       ================================================ -->
+  <section class="section-pad container-fluid-padded" style="border-top: 1px solid var(--border-subtle);" aria-labelledby="context-heading">
+    <div class="row gy-5">
+      <div class="col-lg-5">
+        <span class="label-pill mb-4 d-inline-flex"><i class="bi bi-search"></i> Overview</span>
+        <h2 class="display-section mb-4" id="context-heading">Problem Statement</h2>
+        <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.75;">
+          Our project focuses on the development of 'Erasmus Life,' an app designed to help students integrate into their host country. Arriving in a new country is an exciting adventure, but it can also lead to isolation and a loss of landmarks.</p>
+        <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.75; margin-top:1rem;">
+          Inspired by Inès’s own exchange experience, we decided to tackle this human challenge together. We created a solution that centralizes everything a student needs in an interface as simple as a social media feed. </p>
+      </div>
+      <div class="col-lg-6 offset-lg-1">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 2.5rem;">
+          <h3 style="font-size:0.72rem; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-ghost); margin-bottom:1.5rem;">Insights clés — Recherche utilisateur</h3>
+          <div class="row g-3">
+            <div class="col-6">
+              <div style="background:var(--bg-deep); border-radius:10px; padding:1.5rem; text-align:center; border:1px solid var(--border-subtle);">
+                <div style="font-size:2.2rem; font-weight:300; color:var(--text-primary);">78%</div>
+                <div style="font-size:0.78rem; color:var(--text-ghost); margin-top:0.3rem;">of students find administrative procedures stressful.</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div style="background:var(--bg-deep); border-radius:10px; padding:1.5rem; text-align:center; border:1px solid var(--border-subtle);">
+                <div style="font-size:2.2rem; font-weight:300; color:var(--text-primary);">6+</div>
+                <div style="font-size:0.78rem; color:var(--text-ghost); margin-top:0.3rem;">different apps used on average per stay.</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div style="background:var(--bg-deep); border-radius:10px; padding:1.5rem; text-align:center; border:1px solid var(--border-subtle);">
+                <div style="font-size:2.2rem; font-weight:300; color:var(--text-primary);">64%</div>
+                <div style="font-size:0.78rem; color:var(--text-ghost); margin-top:0.3rem;">say they struggled to build social connections.</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div style="background:var(--bg-deep); border-radius:10px; padding:1.5rem; text-align:center; border:1px solid var(--border-subtle);">
+                <div style="font-size:2.2rem; font-weight:300; color:var(--text-primary);">92%</div>
+                <div style="font-size:0.78rem; color:var(--text-ghost); margin-top:0.3rem;">want an all-in-one solution for their mobility.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       STRUCTURE — Features with custom icons
+       ================================================ -->
+  <section class="section-pad container-fluid-padded" style="border-top: 1px solid var(--border-subtle);" aria-labelledby="process-heading">
+    <span class="label-pill mb-4 d-inline-flex"><i class="bi bi-diagram-3"></i> Structure</span>
+    <h2 class="display-section mb-5" id="process-heading">The structure</h2>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 reveal-on-scroll">
+        <div class="process-step">
+          <div class="process-step-icon-wrap" aria-hidden="true">
+            <img src="DOC/local.png" alt="" class="process-step-icon-img" />
+          </div>
+          <h3 class="process-step-title">Local Discovery</h3>
+          <p class="process-step-desc">
+            Living the city: To get off the beaten track, the app proposes a curated selection of cafés, coworking spaces and nightlife spots favoured by locals and students.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 reveal-on-scroll">
+        <div class="process-step">
+          <div class="process-step-icon-wrap" aria-hidden="true">
+            <img src="DOC/meet.png" alt="" class="process-step-icon-img" />
+          </div>
+          <h3 class="process-step-title">Networking</h3>
+          <p class="process-step-desc">
+            Breaking the ice: The heart of the project is social. Dedicated features foster meetings and exchanges between international students to quickly create a circle of friends.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 reveal-on-scroll">
+        <div class="process-step">
+          <div class="process-step-icon-wrap" aria-hidden="true">
+            <img src="DOC/events.png" alt="" class="process-step-icon-img" />
+          </div>
+          <h3 class="process-step-title">Events</h3>
+          <p class="process-step-desc">
+            Getting active: A feature to discover local events (concerts, conferences). More than a simple agenda, the tool allows users to become actors by creating and managing their own events.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 reveal-on-scroll">
+        <div class="process-step">
+          <div class="process-step-icon-wrap" aria-hidden="true">
+            <img src="DOC/tool.png" alt="" class="process-step-icon-img" />
+          </div>
+          <h3 class="process-step-title">Toolkit</h3>
+          <p class="process-step-desc">
+            Daily life simplified: Includes local vocabulary support, contextual translation, flat-sharing management and an AI assistant to answer user queries and remove practical barriers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="row gy-4 align-items-start">
+      <div class="col-md-4">
+        <div class="footer-logo">Inès &amp; Roksana<sup style="font-size:0.55em; vertical-align:super">®</sup></div>
+        <div class="footer-tagline">Design UX/UI &amp; Identité visuelle</div>
+      </div>
+      <div class="col-md-4">
+        <nav aria-label="Liens du pied de page">
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#projets">Project</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projet-erasmus.html">Erasmus Life</a></li>
+            <li><a href="mailto:hello@ines-roksana.design">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Inès &amp; Roksana. Tous droits réservés.</span>
+      <span>Made with love in Belgium</span>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    const toggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+
+    /* Scroll reveal fallback */
+    if (!CSS.supports('animation-timeline', 'view()')) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.style.opacity = '1';
+            e.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.15 });
+
+      document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
+        observer.observe(el);
+      });
+    }
+  </script>
+</body>
+</html>
