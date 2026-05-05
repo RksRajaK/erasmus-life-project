@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CV d'Inès et Roksana — Designers UX/UI et identité visuelle. Parcours, compétences et expériences." />
+  <title>CV — Inès & Roksana</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar-custom scrolled" id="mainNav" role="navigation" aria-label="Navigation principale">
+    <a href="index.html" class="nav-logo" aria-label="Retour à l'accueil">
+      Inès &amp; Roksana<sup>®</sup>
+    </a>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#projets">Project</a></li>
+      <li><a href="index.html#apropos">About</a></li>
+      <li><a href="cv.html" class="active" aria-current="page">CV</a></li>
+      <li><a href="mailto:hello@ines-roksana.design">Contact</a></li>
+    </ul>
+    <button class="nav-menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+
+  <!-- ================================================
+       CV HERO
+       ================================================ -->
+  <header class="cv-hero container-fluid-padded" style="padding-top: 8rem;">
+    <div class="cv-blob" aria-hidden="true"></div>
+    <div style="position:relative; z-index:10; width:100%;">
+      <span class="label-pill mb-4 d-inline-flex">
+        <i class="bi bi-file-person"></i> Curriculum Vitae
+      </span>
+      <h1 class="display-hero mb-3">
+        <span class="text-ghost">Our</span> Journeys
+      </h1>
+      <p style="color:var(--text-muted); max-width:540px; font-size:0.95rem;">
+        Two designers, two complementary visions. Discover our experiences, training, and skills.
+      </p>
+    </div>
+  </header>
+
+
+  <!-- ================================================
+       TAB SELECTOR
+       ================================================ -->
+  <section style="background:var(--bg-deep); padding: 3rem clamp(1.5rem,5vw,5rem) 0;">
+    <ul class="cv-tabs nav" id="cvTabs" role="tablist" aria-label="Sélectionner un designer">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="ines-tab" data-bs-toggle="tab" data-bs-target="#ines" type="button" role="tab" aria-controls="ines" aria-selected="true">
+          Inès
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="roksana-tab" data-bs-toggle="tab" data-bs-target="#roksana" type="button" role="tab" aria-controls="roksana" aria-selected="false">
+          Roksana
+        </button>
+      </li>
+    </ul>
+  </section>
+
+
+  <!-- ================================================
+       TAB CONTENT
+       ================================================ -->
+  <main style="background:var(--bg-deep); padding: 3rem clamp(1.5rem,5vw,5rem) clamp(5rem,10vh,9rem);">
+    <div class="tab-content" id="cvTabContent">
+
+      <!-- ================================================
+           INÈS
+           ================================================ -->
+      <div class="tab-pane fade show active" id="ines" role="tabpanel" aria-labelledby="ines-tab" tabindex="0">
+        <div class="row gy-5">
+
+          <!-- LEFT COLUMN — Profile / Skills -->
+          <div class="col-lg-4">
+
+            <!-- Profile -->
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="cv-profile-img" role="img" aria-label="Photo d'Inès Schyns">
+                <img src="DOC/INES.jpg" alt="Photo of Inès Schyns, UI/UX Designer" />
+              </div>
+              <div>
+                <h2 style="font-size:1.3rem; font-weight:500; margin:0;">Inès Schyns</h2>
+                <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">Digital Marketing &amp; UI/UX Designer</p>
+              </div>
+            </div>
+
+            <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.7; margin-bottom:2rem;">
+              Passionate about narrative interfaces and design psychology, I transform complex problems into simple and memorable experiences. My human-centered approach makes me a valuable partner for product teams.
+            </p>
+
+            <a href="DOC/cv-ines-schyns.pdf" target="_blank" rel="noopener" class="btn-download mb-4" aria-label="Télécharger le CV d'Inès en PDF">
+              <i class="bi bi-download"></i> Download CV (PDF)
+            </a>
+
+            <!-- Contact -->
+            <div class="mb-4">
+              <div class="cv-section-title">Contact</div>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin:0;">
+                <i class="bi bi-envelope me-2" aria-hidden="true"></i>ines.schyns@gmail.com<br>
+                <i class="bi bi-telephone me-2" aria-hidden="true"></i>+32 472 53 19 37<br>
+                <i class="bi bi-geo-alt me-2" aria-hidden="true"></i>Liège, Belgium
+              </p>
+            </div>
+
+            <!-- Skills -->
+            <div class="mb-4">
+              <div class="cv-section-title">Skills</div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>Figma</span><span>85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:85%;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>Social media management</span><span>70%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:70%; animation-delay:0.1s;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>SEO &amp; Google Ads</span><span>75%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:75%; animation-delay:0.2s;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>Photoshop / Canva</span><span>80%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:80%; animation-delay:0.3s;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>HTML / CSS / Bootstrap</span><span>70%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:70%; animation-delay:0.4s;"></div></div>
+              </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="mb-4">
+              <div class="cv-section-title">Languages</div>
+              <div class="lang-badge"><span>Français</span><span class="lang-level">Native</span></div>
+              <div class="lang-badge"><span>English</span><span class="lang-level">Upper Intermediate (B2)</span></div>
+              <div class="lang-badge"><span>Español</span><span class="lang-level">Intermediate</span></div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="mb-4">
+              <div class="cv-section-title">Soft skills</div>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="label-pill" style="font-size:0.72rem;">Voluntary</span>
+                <span class="label-pill" style="font-size:0.72rem;">Dynamic</span>
+                <span class="label-pill" style="font-size:0.72rem;">Sociable</span>
+                <span class="label-pill" style="font-size:0.72rem;">Curious</span>
+                <span class="label-pill" style="font-size:0.72rem;">Autonomous</span>
+              </div>
+            </div>
+
+            <!-- Hobbies -->
+            <div>
+              <div class="cv-section-title">Hobbies</div>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-heart-pulse me-1"></i> Sport</span>
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-bag-heart me-1"></i> Fashion</span>
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-airplane me-1"></i> Travel</span>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- RIGHT COLUMN — Experience / Education -->
+          <div class="col-lg-7 offset-lg-1">
+
+            <!-- Experience -->
+            <div class="mb-5">
+              <div class="cv-section-title">Experience</div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">2025 — Present</div>
+                <div class="cv-entry-title">UI/UX Design Intern</div>
+                <div class="cv-entry-company">Toyota Europe — Marketing &amp; Customer Experience (English workspace)</div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">February 2025 — July 2025</div>
+                <div class="cv-entry-title">E-commerce Work-Study Internship</div>
+                <div class="cv-entry-company">Gallery Buronzu — Art</div>
+                <div class="cv-entry-desc">
+                  Management and optimization of online presence on social media. Development of targeted communication strategies to increase engagement and visibility (SEO, Google Ads, Facebook Ads, Google Analytics). Performance analysis and campaign adjustments based on results. Creation of visual and written content tailored to different platforms (Canva, CapCut, Photoshop).
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">October 2023 — December 2023</div>
+                <div class="cv-entry-title">Digital Marketing</div>
+                <div class="cv-entry-company">Imprévu — Fashion clothes brand</div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">November 2022 — August 2023 (6 months)</div>
+                <div class="cv-entry-title">Catering Service</div>
+                <div class="cv-entry-company">Les deux font le goût / F1 Hôtesse — Exki organic restaurant</div>
+                <div class="cv-entry-desc">
+                  Customer reception and listening, efficiency management, cash register handling, team work. Skills developed: impeccable presentation, patience, organization.
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">April 2023 — July 2023 (4 months)</div>
+                <div class="cv-entry-title">Language Stay — Canada</div>
+                <div class="cv-entry-company">Education First — British Columbia</div>
+                <div class="cv-entry-desc">
+                  Very good level of English. Sociability and open-mindedness developed through immersion abroad.
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">July 2022 — August 2022 (2 months)</div>
+                <div class="cv-entry-title">Student Job</div>
+                <div class="cv-entry-company">LeP'tit Givré — Ice cream shop</div>
+              </div>
+            </div>
+
+            <!-- Education -->
+            <div>
+              <div class="cv-section-title">Education</div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">September 2023 — Present</div>
+                <div class="cv-entry-title">UX Design &amp; Digital Marketing Training</div>
+                <div class="cv-entry-company">IFAPME — E-commerce course (January–June) + Online courses</div>
+                <div class="cv-entry-desc">
+                  Continuous learning of UX design, digital marketing, and Spanish online. Awakening of curiosity, autonomy, and thirst for learning.
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">2022 — 2023</div>
+                <div class="cv-entry-title">Marketing &amp; Customer Experience (English Workspace)</div>
+                <div class="cv-entry-company">Helmo Saint-Marie — Liège, Belgium</div>
+                <div class="cv-entry-desc">
+                  6 months in international business + 4 months stay in Canada (BC). EF Certificate obtained.
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">2022</div>
+                <div class="cv-entry-title">CESS in Social Sciences</div>
+                <div class="cv-entry-company">Institut Sainte-Thérèse d'Avila</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ================================================
+           ROKSANA
+           ================================================ -->
+      <div class="tab-pane fade" id="roksana" role="tabpanel" aria-labelledby="roksana-tab" tabindex="0">
+        <div class="row gy-5">
+
+          <!-- LEFT COLUMN -->
+          <div class="col-lg-4">
+
+            <!-- Profile -->
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="cv-profile-img" role="img" aria-label="Photo de Roksana Raja Khalid">
+                <img src="DOC/ROKSANA.jpg" alt="Photo of Roksana Raja Khalid, UI/UX Designer" />
+              </div>
+              <div>
+                <h2 style="font-size:1.3rem; font-weight:500; margin:0;">Roksana Raja Khalid</h2>
+                <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">UI/UX Designer</p>
+              </div>
+            </div>
+
+            <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.7; margin-bottom:2rem;">
+              UI/UX designer in training, with a background in web development. I enjoy designing simple, clean and functional interfaces. Curious and detail-oriented, I want to learn alongside digital design professionals in a multicultural and international environment.
+            </p>
+
+            <a href="DOC/cv-roksana-rajakhalid.pdf" target="_blank" rel="noopener" class="btn-download mb-4" aria-label="Télécharger le CV de Roksana en PDF">
+              <i class="bi bi-download"></i> Download CV (PDF)
+            </a>
+
+            <!-- Contact -->
+            <div class="mb-4">
+              <div class="cv-section-title">Contact</div>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin:0;">
+                <i class="bi bi-envelope me-2" aria-hidden="true"></i>roksanarajakhalid@gmail.com<br>
+                <i class="bi bi-telephone me-2" aria-hidden="true"></i>+32 498 14 34 28<br>
+                <i class="bi bi-geo-alt me-2" aria-hidden="true"></i>Chaudfontaine, Belgium
+              </p>
+            </div>
+
+            <!-- Skills -->
+            <div class="mb-4">
+              <div class="cv-section-title">Skills</div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>HTML / CSS / Bootstrap</span><span>90%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:90%;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>Adobe Illustrator</span><span>85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:85%; animation-delay:0.1s;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>Adobe Photoshop</span><span>80%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:80%; animation-delay:0.2s;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label"><span>Figma</span><span>70%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill animated" style="width:70%; animation-delay:0.3s;"></div></div>
+              </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="mb-4">
+              <div class="cv-section-title">Languages</div>
+              <div class="lang-badge"><span>Français</span><span class="lang-level">Native</span></div>
+              <div class="lang-badge"><span>Polski</span><span class="lang-level">Fluent (spoken)</span></div>
+              <div class="lang-badge"><span>English</span><span class="lang-level">Intermediate(B1/B2)</span></div>
+            </div>
+
+            <!-- Strengths -->
+            <div class="mb-4">
+              <div class="cv-section-title">Strengths</div>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="label-pill" style="font-size:0.72rem;">Creativity</span>
+                <span class="label-pill" style="font-size:0.72rem;">Adaptability</span>
+                <span class="label-pill" style="font-size:0.72rem;">Interpersonal skills</span>
+                <span class="label-pill" style="font-size:0.72rem;">Team spirit</span>
+                <span class="label-pill" style="font-size:0.72rem;">Results-oriented</span>
+              </div>
+            </div>
+
+            <!-- Hobbies -->
+            <div>
+              <div class="cv-section-title">Hobbies</div>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-camera me-1"></i> Photography</span>
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-headphones me-1"></i> Music</span>
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-airplane me-1"></i> Travel</span>
+                <span class="label-pill" style="font-size:0.72rem;"><i class="bi bi-egg-fried me-1"></i> Cooking</span>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- RIGHT COLUMN -->
+          <div class="col-lg-7 offset-lg-1">
+
+            <!-- Experience -->
+            <div class="mb-5">
+              <div class="cv-section-title">Experience</div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">December 2024 — December 2025</div>
+                <div class="cv-entry-title">Administrative Employee</div>
+                <div class="cv-entry-company">CPAS de Chaudfontaine</div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">January 2024</div>
+                <div class="cv-entry-title">Workshop</div>
+                <div class="cv-entry-company">Charleroi E6K</div>
+              </div>
+            </div>
+
+            <!-- Education -->
+            <div>
+              <div class="cv-section-title">Education</div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">2025 — 2026</div>
+                <div class="cv-entry-title">UI/UX Designer Training</div>
+                <div class="cv-entry-company">IFAPME — Liège, Belgium</div>
+                <div class="cv-entry-desc">
+                  Comprehensive UI/UX design training covering user research, wireframing, prototyping, and accessible interface design.
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">28 November 2024</div>
+                <div class="cv-entry-title">Skills Validation Certification — Administrative Assistant</div>
+                <div class="cv-entry-company">Issued by SFMQ (The French-speaking Vocational and Qualifications Service)</div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">2023 — 2024</div>
+                <div class="cv-entry-title">Web Development</div>
+                <div class="cv-entry-company">IFAPME E6K — Charleroi, Belgium</div>
+                <div class="cv-entry-desc">
+                  Foundation in web development: HTML, CSS, Bootstrap, version control, responsive design.
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">4 August 2022</div>
+                <div class="cv-entry-title">Business Management Certificate</div>
+                <div class="cv-entry-company">Belgium</div>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-year">2019 — 2020</div>
+                <div class="cv-entry-title">CESS — Upper Secondary Education Certificate</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="row gy-4 align-items-start">
+      <div class="col-md-4">
+        <div class="footer-logo">Inès &amp; Roksana<sup style="font-size:0.55em; vertical-align:super">®</sup></div>
+        <div class="footer-tagline">Design UX/UI &amp; Identité visuelle</div>
+      </div>
+      <div class="col-md-4">
+        <nav aria-label="Liens du pied de page">
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#projets">Project</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projet-erasmus.html">Erasmus Life</a></li>
+            <li><a href="mailto:hello@ines-roksana.design">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <div class="footer-socials justify-content-md-end mb-2">
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Inès &amp; Roksana. All rights reserved.</span>
+      <span>Made with love in Belgium</span>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    /* Navbar scroll effect */
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* Mobile menu toggle */
+    const toggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+  </script>
+</body>
+</html>

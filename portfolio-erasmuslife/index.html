@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Inès & Roksana — Portfolio design UX/UI et identité visuelle. Projets éditoraux, branding et expériences numériques." />
+  <title>Inès & Roksana — Design Portfolio</title>
+
+  <!-- Bootstrap 5.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+<body>
+
+  <!-- ================================================
+       NAVIGATION
+       ================================================ -->
+  <nav class="navbar-custom" id="mainNav" role="navigation" aria-label="Navigation principale">
+    <a href="index.html" class="nav-logo" aria-label="Accueil Inès &amp; Roksana">
+      Inès &amp; Roksana<sup>®</sup>
+    </a>
+
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+      <li><a href="#projets">Project</a></li>
+      <li><a href="#apropos">About</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="mailto:hello@ines-roksana.design">Contact</a></li>
+    </ul>
+
+    <button class="nav-menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+
+  <!-- ================================================
+       HERO SECTION
+       ================================================ -->
+  <section class="hero" aria-label="Introduction">
+    <!-- Animated gradient blob -->
+    <div class="hero-blob" aria-hidden="true"></div>
+    <!-- Grid overlay -->
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <!-- Main hero content -->
+    <div class="hero-content">
+      <p class="hero-tag">Design Portfolio — 2025/2026</p>
+
+      <h1 class="hero-title display-mega" aria-label="Designing with Intention">
+        <span class="word">Designing&nbsp;</span><span
+        class="word text-ghost">with&nbsp;</span><span
+        class="word">Intention</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Inès &amp; Roksana — A design duo creating narrative digital experiences, from branding to UI.
+      </p>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll-hint" aria-hidden="true">Scroll</div>
+  </section>
+
+
+  <!-- ================================================
+       À PROPOS
+       ================================================ -->
+  <section class="about-section section-pad container-fluid-padded" id="apropos" aria-labelledby="about-heading">
+    <div class="row gy-5 align-items-center">
+
+      <!-- Quote + CTA -->
+      <div class="col-lg-6 order-lg-1 order-2">
+        <span class="label-pill mb-4 d-inline-flex" aria-hidden="true">
+          <i class="bi bi-stars"></i> About
+        </span>
+
+        <blockquote class="about-quote mb-4" id="about-heading">
+          "At Inès &amp; Roksana, <em>simplicity meets strategy</em> to create bold and intuitive experiences that bring your vision to life."
+        </blockquote>
+
+        <p class="mb-4" style="color:var(--text-muted); max-width:520px; font-size:0.95rem;">
+          We are two complementary designers passionate about creating narrative interfaces and memorable visual identities. Our approach combines rigorous user research with aesthetic sensitivity to produce results that captivate and convert.
+        </p>
+
+        <a href="mailto:hello@ines-roksana.design" class="btn-contact mb-5" aria-label="Contact us by email">
+          Contact Us <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <!-- Floating images cluster -->
+      <div class="col-lg-5 offset-lg-1 order-lg-2 order-1">
+        <div class="about-images-cluster">
+
+          <!-- Image 1 — Inès -->
+          <div class="about-img about-img-1">
+            <img src="DOC/INES.jpg" alt="Photo of Inès, UX/UI designer" />
+          </div>
+
+          <!-- Image 2 — Logo Erasmus Life (branding example) -->
+          <div class="about-img about-img-2 about-img-logo">
+            <img src="DOC/logo.jpg" alt="Erasmus Life logo, branding example" />
+          </div>
+
+          <!-- Image 3 — Roksana -->
+          <div class="about-img about-img-3">
+            <img src="DOC/ROKSANA.jpg" alt="Photo of Roksana, graphic designer" />
+          </div>
+
+          <!-- Image 4 — Duo -->
+          <div class="about-img about-img-4">
+            <img src="DOC/duo.jpg" alt="Inès and Roksana, the design duo" />
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       FEATURED PROJECTS
+       ================================================ -->
+  <section class="projects-section section-pad container-fluid-padded" id="projets" aria-labelledby="projects-heading">
+
+    <div class="projects-header">
+      <div class="d-flex align-items-center gap-3">
+        <span class="label-pill">
+          <i class="bi bi-stars"></i> Featured Projects
+        </span>
+        <h2 class="display-section mb-0" id="projects-heading">Project</h2>
+      </div>
+      <a href="#projets" class="see-all-link" aria-label="See more">
+        See more <i class="bi bi-arrow-up-right"></i>
+      </a>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Projet 1 : Erasmus Life (featured — pleine largeur) -->
+      <div class="col-12">
+        <a href="projet-erasmus.html" class="project-card project-card-featured reveal-on-scroll" aria-label="See the Erasmus Life project">
+          <div class="project-card-img">
+            <div class="project-card-img-inner project-placeholder">
+              <svg width="100%" height="480" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Erasmus Life project visual preview">
+                <rect width="800" height="300" fill="#0d1117"/>
+                <defs>
+                  <radialGradient id="eg1" cx="30%" cy="50%" r="60%">
+                    <stop offset="0%" stop-color="#c2185b" stop-opacity="0.4"/>
+                    <stop offset="100%" stop-color="transparent"/>
+                  </radialGradient>
+                  <radialGradient id="eg2" cx="80%" cy="40%" r="50%">
+                    <stop offset="0%" stop-color="#1a3d2e" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="transparent"/>
+                  </radialGradient>
+                </defs>
+                <rect width="800" height="300" fill="url(#eg1)"/>
+                <rect width="800" height="300" fill="url(#eg2)"/>
+                <rect x="60" y="60" width="240" height="180" rx="14" fill="#161b22" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+                <rect x="75" y="78" width="80" height="8" rx="4" fill="#c2185b" opacity=".8"/>
+                <rect x="75" y="98" width="140" height="4" rx="2" fill="rgba(255,255,255,0.2)"/>
+                <rect x="75" y="110" width="100" height="4" rx="2" fill="rgba(255,255,255,0.12)"/>
+                <rect x="75" y="130" width="200" height="70" rx="10" fill="#1e2430" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+                <rect x="85" y="142" width="60" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+                <rect x="85" y="155" width="40" height="4" rx="2" fill="rgba(255,255,255,0.08)"/>
+                <rect x="340" y="40" width="160" height="220" rx="24" fill="#1a1f2e" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                <rect x="355" y="60" width="130" height="20" rx="10" fill="#c2185b" opacity=".6"/>
+                <rect x="355" y="92" width="130" height="55" rx="10" fill="#242a38"/>
+                <rect x="362" y="100" width="60" height="5" rx="3" fill="rgba(255,255,255,0.2)"/>
+                <rect x="362" y="112" width="80" height="4" rx="2" fill="rgba(255,255,255,0.1)"/>
+                <rect x="362" y="122" width="50" height="4" rx="2" fill="rgba(255,255,255,0.08)"/>
+                <rect x="355" y="160" width="130" height="55" rx="10" fill="#242a38"/>
+                <rect x="362" y="170" width="70" height="5" rx="3" fill="rgba(255,255,255,0.2)"/>
+                <rect x="362" y="182" width="55" height="4" rx="2" fill="rgba(255,255,255,0.1)"/>
+                <rect x="355" y="228" width="60" height="18" rx="9" fill="#f4d03f" opacity=".7"/>
+                <rect x="425" y="228" width="60" height="18" rx="9" fill="rgba(255,255,255,0.08)"/>
+                <rect x="560" y="55" width="200" height="190" rx="16" fill="#131720" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+                <circle cx="660" cy="120" r="50" fill="none" stroke="#1a3d2e" stroke-width="2"/>
+                <circle cx="660" cy="120" r="35" fill="#1a3d2e" opacity=".5"/>
+                <text x="660" y="127" text-anchor="middle" fill="#f4d03f" font-size="22" font-weight="bold" font-family="sans-serif">E</text>
+                <rect x="580" y="190" width="160" height="5" rx="3" fill="rgba(255,255,255,0.08)"/>
+                <rect x="600" y="202" width="120" height="5" rx="3" fill="rgba(255,255,255,0.05)"/>
+                <text x="400" y="290" text-anchor="middle" fill="rgba(255,255,255,0.06)" font-size="48" font-weight="bold" font-family="sans-serif" letter-spacing="-2">ERASMUS LIFE</text>
+              </svg>
+            </div>
+            <div class="project-card-overlay" aria-hidden="true">
+              <span style="color:white; font-size:0.85rem; font-weight:500;">See the case study ↗</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">UX Research</span>
+              <span class="project-tag">UI Design</span>
+              <span class="project-tag">Mobile</span>
+              <span class="project-tag">2025</span>
+            </div>
+            <h3 class="project-title">Erasmus Life</h3>
+            <p class="project-desc">A mobile platform supporting Erasmus students during their time abroad — accommodation, events, community and administrative procedures.</p>
+            <span class="project-bg-text" aria-hidden="true">Erasmus</span>
+            <span class="project-arrow" aria-hidden="true"><i class="bi bi-arrow-up-right"></i></span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       TESTIMONIALS
+       ================================================ -->
+  <section class="testimonials-section section-pad" aria-labelledby="testimonials-heading">
+    <div class="container-fluid-padded">
+
+      <div class="projects-header mb-5">
+        <span class="label-pill">
+          <i class="bi bi-chat-quote"></i> Synergy
+        </span>
+        <h2 class="display-section mb-0" id="testimonials-heading">The Duo</h2>
+      </div>
+
+      <div class="testimonials-bg-word" aria-hidden="true">Feedback</div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="testimonials-stack">
+
+            <!-- Card 1 -->
+            <article class="testimonial-card reveal-on-scroll" aria-label="Shared Expertise">
+              <time class="testimonial-date" datetime="2025-11-14">14.11.2025</time>
+              <p class="testimonial-quote">
+                "Mastery of Figma, WordPress, Photoshop, Illustrator, AI tools, and coding fundamentals (Visual Studio Code, Bootstrap) + e-commerce (WordPress, Shopify, Wix)."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true"></div>
+                <div>
+                  <div class="testimonial-name">Shared Expertise</div>
+                  <div class="testimonial-role">Our training as UI/UX Designers has allowed us to develop complementary technical skills</div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="testimonial-card reveal-on-scroll" aria-label="Professional Approach">
+              <time class="testimonial-date" datetime="2026-01-08">08.01.2026</time>
+              <p class="testimonial-quote">
+                "We are a team of UI/UX Design students at IFAPME, united by a common vision: designing interfaces that make sense. Throughout our journey, we have acquired global mastery of the digital production chain, ranging from user research and structuring user journeys to prototyping and designing accessible UI interfaces."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" style="background: linear-gradient(135deg, #1565c0, #4fc3f7);" aria-hidden="true"></div>
+                <div>
+                  <div class="testimonial-name">Professional Approach</div>
+                  <div class="testimonial-role">Our strength is in our method. We prioritise a clear and structured approach, anchored in the real needs of users.</div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="testimonial-card reveal-on-scroll" aria-label="Collaboration">
+              <time class="testimonial-date" datetime="2026-03-22">22.03.2026</time>
+              <p class="testimonial-quote">
+                "For us, design is not a solitary task: we rely on regular communication and an iterative process where every piece of feedback refines and enriches the final solution. Our duo fosters a creative synergy that is indispensable to design."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" style="background: linear-gradient(135deg, #558b2f, #f4d03f);" aria-hidden="true"></div>
+                <div>
+                  <div class="testimonial-name">Collaboration</div>
+                  <div class="testimonial-role">The strength of our partnership</div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       FOOTER
+       ================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="row gy-4 align-items-start">
+      <div class="col-md-4">
+        <div class="footer-logo">Inès &amp; Roksana<sup style="font-size:0.55em; vertical-align:super">®</sup></div>
+        <div class="footer-tagline">Design UX/UI &amp; Visual branding</div>
+      </div>
+      <div class="col-md-4">
+        <nav aria-label="Footer links">
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#projets">Project</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projet-erasmus.html">Erasmus Life</a></li>
+            <li><a href="mailto:hello@ines-roksana.design">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <div class="footer-socials justify-content-md-end mb-2">
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+        </div>
+        <p style="font-size:0.78rem; color:var(--text-ghost);">
+          Available for new project
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Inès &amp; Roksana. All rights reserved.</span>
+      <span>Made with love in Belgium</span>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS (bundle with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    /* Navbar scroll effect */
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* Mobile menu toggle */
+    const toggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+
+    /* Close mobile menu on nav link click */
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open menu');
+        document.body.style.overflow = '';
+      });
+    });
+
+    /* Skill bars animation on scroll (fallback for browsers without animation-timeline) */
+    if (!CSS.supports('animation-timeline', 'view()')) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.style.opacity = '1';
+            e.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.15 });
+
+      document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
+        observer.observe(el);
+      });
+    }
+  </script>
+</body>
+</html>
